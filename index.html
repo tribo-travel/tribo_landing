@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tribo — deja de organizar viajes por WhatsApp</title>
+  <meta name="description" content="Tribo es la app con la que tu grupo vota el destino, planifica el viaje y divide los gastos. Sin caos. Sin drama.">
+  <meta property="og:title" content="tribo — deja de organizar viajes por WhatsApp">
+  <meta property="og:description" content="Tu grupo vota el destino, planifica el viaje y divide los gastos. Sin caos. Sin drama.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="YOUR_DOMAIN_HERE">
+  <link rel="canonical" href="YOUR_DOMAIN_HERE">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <span class="nav__logo">tribo</span>
+      <a href="#waitlist" class="btn btn--nav">Quiero acceso anticipado</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__content reveal">
+      <h1 class="hero__headline">Deja de organizar<br>viajes por WhatsApp.</h1>
+      <p class="hero__sub">Tribo es la app con la que tu grupo vota el destino, planifica el viaje y divide los gastos. Sin caos. Sin drama.</p>
+      <div class="form-block" id="waitlist">
+        <iframe
+          data-tally-src="https://tally.so/embed/ja07ka?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+          loading="lazy"
+          width="100%"
+          height="319"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+          title="tribo — lista de espera">
+        </iframe>
+        <p class="form-block__disclaimer">Gratis. Sin spam. Te avisamos cuando esté lista.</p>
+      </div>
+    </div>
+    <div class="hero__image reveal reveal--right">
+      <div class="hero__img-wrapper">
+        <img src="images/hero.png" alt="Interfaz de la app tribo" class="hero__img" onerror="this.parentElement.classList.add('img-placeholder')">
+      </div>
+    </div>
+  </section>
+
+  <!-- EL PROBLEMA -->
+  <section class="section section--problem" id="problema">
+    <div class="section__inner">
+      <div class="section__header reveal">
+        <span class="section__label">el problema</span>
+        <h2 class="section__title">¿Te suena esto?</h2>
+      </div>
+      <div class="problems__grid">
+
+        <div class="problem-card reveal">
+          <div class="problem-card__number">247</div>
+          <div class="problem-card__content">
+            <h3 class="problem-card__headline">247 mensajes en el grupo y nadie ha decidido nada.</h3>
+            <p class="problem-card__body">El viaje existe solo en la cabeza de uno.</p>
+          </div>
+        </div>
+
+        <div class="problem-card reveal">
+          <div class="problem-card__number">01</div>
+          <div class="problem-card__content">
+            <h3 class="problem-card__headline">Hay uno que veta todo pero nunca propone nada.</h3>
+            <p class="problem-card__body">Y el grupo aguanta porque siempre es así.</p>
+          </div>
+        </div>
+
+        <div class="problem-card reveal">
+          <div class="problem-card__number">∞</div>
+          <div class="problem-card__content">
+            <h3 class="problem-card__headline">Al final quedáis en "ya lo organizamos" y el verano pasa.</h3>
+            <p class="problem-card__body">Hasta el año que viene.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- LA SOLUCIÓN -->
+  <section class="section section--solution" id="solucion">
+    <div class="section__inner">
+      <div class="section__header reveal">
+        <span class="section__label">la solución</span>
+        <h2 class="section__title">Tribo lo resuelve<br>en tres pasos.</h2>
+      </div>
+
+      <div class="step reveal">
+        <div class="step__media">
+          <div class="step__img-wrapper">
+            <img src="images/solucion-voting.png" alt="Sistema de votación de destino en tribo" onerror="this.parentElement.classList.add('img-placeholder')">
+          </div>
+        </div>
+        <div class="step__content">
+          <span class="step__num">01</span>
+          <h3 class="step__title">Tu grupo vota el destino.</h3>
+          <p class="step__body">Sistema de votación con veto. Cada uno elige, el grupo decide. Sin WhatsApp.</p>
+        </div>
+      </div>
+
+      <div class="step step--reverse reveal">
+        <div class="step__media">
+          <div class="step__img-wrapper">
+            <img src="images/solucion-itinerario.png" alt="Itinerario colaborativo en tiempo real" onerror="this.parentElement.classList.add('img-placeholder')">
+          </div>
+        </div>
+        <div class="step__content">
+          <span class="step__num">02</span>
+          <h3 class="step__title">Organizáis el viaje juntos.</h3>
+          <p class="step__body">Itinerario colaborativo en tiempo real. Todo en el mismo sitio.</p>
+        </div>
+      </div>
+
+      <div class="step reveal">
+        <div class="step__media">
+          <div class="step__img-wrapper">
+            <img src="images/solucion-gastos.png" alt="División de gastos sin drama" onerror="this.parentElement.classList.add('img-placeholder')">
+          </div>
+        </div>
+        <div class="step__content">
+          <span class="step__num">03</span>
+          <h3 class="step__title">Dividís los gastos sin drama.</h3>
+          <p class="step__body">Quién debe qué, al céntimo. Sin calculadoras ni deudas incómodas.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PRUEBA SOCIAL -->
+  <section class="section section--social" id="social">
+    <div class="section__inner">
+      <div class="social__block reveal">
+        <span class="section__label">prueba social</span>
+        <h2 class="social__title">Ya hay gente esperando.</h2>
+        <div class="social__counter">
+          <span class="social__number" data-target="312" id="counter">0</span>
+        </div>
+        <p class="social__sub">personas que ya tienen suficiente del caos de WhatsApp.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="section section--cta" id="cta">
+    <div class="section__inner section__inner--cta">
+      <div class="cta__content reveal">
+        <h2 class="cta__title">¿Está tu tribo lista?</h2>
+        <p class="cta__sub">Únete a los primeros. Lanzamos en junio.</p>
+        <div class="form-block form-block--dark">
+          <iframe
+            data-tally-src="https://tally.so/embed/ja07ka?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+            loading="lazy"
+            width="100%"
+            height="319"
+            frameborder="0"
+            marginheight="0"
+            marginwidth="0"
+            title="tribo — lista de espera">
+          </iframe>
+          <p class="form-block__disclaimer form-block__disclaimer--dark">Gratis. Te avisamos el día del lanzamiento.</p>
+        </div>
+      </div>
+      <div class="cta__image reveal reveal--right">
+        <div class="cta__img-wrapper">
+          <img src="images/cta-mockup.png" alt="App tribo en el móvil" onerror="this.parentElement.classList.add('img-placeholder')">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <span class="footer__logo">tribo</span>
+      <p class="footer__copy">© 2026 Tribo. Hecho con ganas de viajar.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+  <script>
+    var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}
+  </script>
+</body>
+</html>
