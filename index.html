@@ -10,14 +10,14 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="YOUR_DOMAIN_HERE">
   <link rel="canonical" href="YOUR_DOMAIN_HERE">
-  <link rel="icon" type="image/png" href="Logo Tribo App.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" type="image/png" href="Logo Tribo App.png">
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
- 
+
   <!-- NAV -->
   <nav class="nav" id="nav">
     <div class="nav__inner">
@@ -191,7 +191,7 @@
 
   <script src="main.js"></script>
   <script>
-    var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.s[...]
+    var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}
   </script>
 </body>
 </html>
