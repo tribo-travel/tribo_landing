@@ -21,6 +21,27 @@
     </div>
   </nav>
 
+  <!-- HEADER LEGAL -->
+  <header class="legal-header">
+    <div class="legal-header__inner">
+      <div class="lang-toggle" role="group" aria-label="Seleccionar idioma">
+        <button class="lang-btn active" id="btn-es" onclick="setLang('es')" aria-pressed="true">ES</button>
+        <button class="lang-btn" id="btn-en" onclick="setLang('en')" aria-pressed="false">EN</button>
+      </div>
+
+      <nav class="breadcrumb" aria-label="Ruta de navegación">
+        <a href="index.html">tribo</a>
+        <span class="breadcrumb__sep">→</span>
+        <span>Legal</span>
+        <span class="breadcrumb__sep">→</span>
+        <span class="breadcrumb__current" data-es="Términos de Uso" data-en="Terms of Use">Términos de Uso</span>
+      </nav>
+
+      <h1 class="legal-header__title" data-es="Términos de Uso" data-en="Terms of Use">Términos de Uso</h1>
+      <div class="legal-date-chip" data-es="Última actualización: mayo 2026" data-en="Last updated: May 2026">Última actualización: mayo 2026</div>
+    </div>
+  </header>
+
   <!-- BODY -->
   <div class="legal-body">
 
@@ -48,8 +69,8 @@
 
       <!-- INTRO -->
       <div class="legal-section" style="border-bottom:none; padding-bottom:0; margin-bottom:36px;">
-        <p data-es='Estos Términos de Uso regulan el acceso y uso de la aplicación móvil tribo ("tribo", "la app", "el servicio"), operada por tribo. Al crear una cuenta o usar la aplicación, [...]
-        Estos Términos de Uso regulan el acceso y uso de la aplicación móvil tribo ("tribo", "la app", "el servicio"), operada por tribo. Al crear una cuenta o usar la aplicación, aceptas esto[...]
+        <p data-es='Estos Términos de Uso regulan el acceso y uso de la aplicación móvil tribo ("tribo", "la app", "el servicio"), operada por tribo. Al crear una cuenta o usar la aplicación, aceptas estos términos en su totalidad. Si no estás de acuerdo, no uses la app.' data-en='These Terms of Use govern access to and use of the tribo mobile application ("tribo", "the app", "the service"), operated by tribo. By creating an account or using the application, you agree to these terms in full. If you disagree, please do not use the app.'>
+        Estos Términos de Uso regulan el acceso y uso de la aplicación móvil tribo ("tribo", "la app", "el servicio"), operada por tribo. Al crear una cuenta o usar la aplicación, aceptas estos términos en su totalidad. Si no estás de acuerdo, no uses la app.
         </p>
       </div>
 
@@ -59,8 +80,8 @@
           <span class="legal-section__num">01</span>
           <span data-es="Aceptación de los términos" data-en="Acceptance of terms">Aceptación de los términos</span>
         </h2>
-        <p data-es="Al descargar, instalar o usar tribo, confirmas que has leído, entendido y aceptas quedar vinculado por estos Términos de Uso y por nuestra Política de Privacidad." data-en="[...]
-        <p data-es="Estos términos constituyen un acuerdo legal entre tú y tribo." data-en="These terms constitute a legal agreement between you and tribo.">Estos términos constituyen un acuerd[...]
+        <p data-es="Al descargar, instalar o usar tribo, confirmas que has leído, entendido y aceptas quedar vinculado por estos Términos de Uso y por nuestra Política de Privacidad." data-en="By downloading, installing or using tribo, you confirm that you have read, understood and agree to be bound by these Terms of Use and our Privacy Policy.">Al descargar, instalar o usar tribo, confirmas que has leído, entendido y aceptas quedar vinculado por estos Términos de Uso y por nuestra <a href="privacidad.html">Política de Privacidad</a>.</p>
+        <p data-es="Estos términos constituyen un acuerdo legal entre tú y tribo." data-en="These terms constitute a legal agreement between you and tribo.">Estos términos constituyen un acuerdo legal entre tú y tribo.</p>
       </section>
 
       <!-- S2 -->
@@ -69,14 +90,14 @@
           <span class="legal-section__num">02</span>
           <span data-es="Descripción del servicio" data-en="Description of the service">Descripción del servicio</span>
         </h2>
-        <p data-es="tribo es una aplicación móvil de planificación de viajes en grupo que permite a los usuarios:" data-en="tribo is a group travel planning mobile application that allows users[...]
+        <p data-es="tribo es una aplicación móvil de planificación de viajes en grupo que permite a los usuarios:" data-en="tribo is a group travel planning mobile application that allows users to:">tribo es una aplicación móvil de planificación de viajes en grupo que permite a los usuarios:</p>
         <ul>
-          <li data-es="Crear grupos de viaje e invitar a amigos mediante un enlace de invitación." data-en="Create travel groups and invite friends via an invitation link.">Crear grupos de viaje [...]
-          <li data-es="Votar destinos de viaje mediante un sistema de swipe gamificado con posibilidad de veto." data-en="Vote on travel destinations using a gamified swipe system with the option [...]
+          <li data-es="Crear grupos de viaje e invitar a amigos mediante un enlace de invitación." data-en="Create travel groups and invite friends via an invitation link.">Crear grupos de viaje e invitar a amigos mediante un enlace de invitación.</li>
+          <li data-es="Votar destinos de viaje mediante un sistema de swipe gamificado con posibilidad de veto." data-en="Vote on travel destinations using a gamified swipe system with the option to veto.">Votar destinos de viaje mediante un sistema de swipe gamificado con posibilidad de veto.</li>
           <li data-es="Construir un itinerario colaborativo en tiempo real." data-en="Build a collaborative real-time itinerary.">Construir un itinerario colaborativo en tiempo real.</li>
-          <li data-es="Registrar y dividir los gastos del viaje entre los miembros del grupo." data-en="Record and split trip expenses among group members.">Registrar y dividir los gastos del viaj[...]
+          <li data-es="Registrar y dividir los gastos del viaje entre los miembros del grupo." data-en="Record and split trip expenses among group members.">Registrar y dividir los gastos del viaje entre los miembros del grupo.</li>
         </ul>
-        <p data-es="tribo se reserva el derecho de modificar, suspender o interrumpir cualquier parte del servicio con aviso previo razonable a los usuarios." data-en="tribo reserves the right to[...]
+        <p data-es="tribo se reserva el derecho de modificar, suspender o interrumpir cualquier parte del servicio con aviso previo razonable a los usuarios." data-en="tribo reserves the right to modify, suspend or discontinue any part of the service with reasonable prior notice to users.">tribo se reserva el derecho de modificar, suspender o interrumpir cualquier parte del servicio con aviso previo razonable.</p>
       </section>
 
       <!-- S3 -->
@@ -85,14 +106,14 @@
           <span class="legal-section__num">03</span>
           <span data-es="Registro y cuenta de usuario" data-en="Registration and user account">Registro y cuenta de usuario</span>
         </h2>
-        <p data-es="Para acceder a las funcionalidades de tribo es necesario crear una cuenta. Al registrarte, declaras que:" data-en="To access tribo's features you must create an account. By re[...]
+        <p data-es="Para acceder a las funcionalidades de tribo es necesario crear una cuenta. Al registrarte, declaras que:" data-en="To access tribo's features you must create an account. By registering, you declare that:">Para acceder a las funcionalidades de tribo es necesario crear una cuenta. Al registrarte, declaras que:</p>
         <ul>
-          <li data-es="Tienes 18 años o más. tribo no está disponible para menores de 18 años." data-en="You are 18 years of age or older. tribo is not available to anyone under 18.">Tienes <[...]
-          <li data-es="La información que proporcionas durante el registro es veraz, precisa y actualizada." data-en="The information you provide during registration is truthful, accurate and up[...]
-          <li data-es="Eres el único responsable de mantener la confidencialidad de tu contraseña y de todas las actividades que ocurran bajo tu cuenta." data-en="You are solely responsible for[...]
-          <li data-es="Notificarás a tribo de inmediato ante cualquier uso no autorizado de tu cuenta." data-en="You will notify tribo immediately of any unauthorised use of your account.">Notif[...]
+          <li data-es="Tienes 18 años o más. tribo no está disponible para menores de 18 años." data-en="You are 18 years of age or older. tribo is not available to anyone under 18.">Tienes <strong>18 años o más</strong>. tribo no está disponible para menores de 18 años.</li>
+          <li data-es="La información que proporcionas durante el registro es veraz, precisa y actualizada." data-en="The information you provide during registration is truthful, accurate and up to date.">La información que proporcionas durante el registro es veraz, precisa y actualizada.</li>
+          <li data-es="Eres el único responsable de mantener la confidencialidad de tu contraseña y de todas las actividades que ocurran bajo tu cuenta." data-en="You are solely responsible for maintaining the confidentiality of your password and for all activities that occur under your account.">Eres el único responsable de mantener la confidencialidad de tu contraseña y de todas las actividades que ocurran bajo tu cuenta.</li>
+          <li data-es="Notificarás a tribo de inmediato ante cualquier uso no autorizado de tu cuenta." data-en="You will notify tribo immediately of any unauthorised use of your account.">Notificarás a tribo de inmediato ante cualquier uso no autorizado de tu cuenta.</li>
         </ul>
-        <p data-es="No está permitido crear más de una cuenta por persona ni transferir tu cuenta a otra persona." data-en="It is not permitted to create more than one account per person or to [...]
+        <p data-es="No está permitido crear más de una cuenta por persona ni transferir tu cuenta a otra persona." data-en="It is not permitted to create more than one account per person or to transfer your account to another person.">No está permitido crear más de una cuenta por persona ni transferir tu cuenta a otra persona.</p>
       </section>
 
       <!-- S4 -->
@@ -101,16 +122,16 @@
           <span class="legal-section__num">04</span>
           <span data-es="Uso aceptable" data-en="Acceptable use">Uso aceptable</span>
         </h2>
-        <p data-es="Al usar tribo, te comprometes a no realizar ninguna de las siguientes acciones:" data-en="By using tribo, you agree not to carry out any of the following:">Al usar tribo, te c[...]
+        <p data-es="Al usar tribo, te comprometes a no realizar ninguna de las siguientes acciones:" data-en="By using tribo, you agree not to carry out any of the following:">Al usar tribo, te comprometes a no realizar ninguna de las siguientes acciones:</p>
         <ul>
-          <li data-es="Publicar, compartir o transmitir contenido ilegal, fraudulento, difamatorio, amenazante, obsceno, discriminatorio o que incite al odio." data-en="Post, share or transmit il[...]
-          <li data-es="Usar la app para enviar spam, publicidad no solicitada o mensajes masivos a otros usuarios." data-en="Use the app to send spam, unsolicited advertising or bulk messages to [...]
-          <li data-es="Intentar acceder, interferir o dañar los sistemas informáticos, servidores o redes de tribo o de terceros (hacking, malware, ataques DDoS, etc.)." data-en="Attempt to acc[...]
+          <li data-es="Publicar, compartir o transmitir contenido ilegal, fraudulento, difamatorio, amenazante, obsceno, discriminatorio o que incite al odio." data-en="Post, share or transmit illegal, fraudulent, defamatory, threatening, obscene, discriminatory or hate-inciting content.">Publicar contenido ilegal, fraudulento, difamatorio, amenazante, obsceno, discriminatorio o que incite al odio.</li>
+          <li data-es="Usar la app para enviar spam, publicidad no solicitada o mensajes masivos a otros usuarios." data-en="Use the app to send spam, unsolicited advertising or bulk messages to other users.">Usar la app para enviar spam, publicidad no solicitada o mensajes masivos.</li>
+          <li data-es="Intentar acceder, interferir o dañar los sistemas informáticos, servidores o redes de tribo o de terceros (hacking, malware, ataques DDoS, etc.)." data-en="Attempt to access, interfere with or damage tribo's or third parties' computer systems, servers or networks (hacking, malware, DDoS attacks, etc.).">Intentar acceder, interferir o dañar los sistemas de tribo o de terceros (hacking, malware, ataques DDoS, etc.).</li>
           <li data-es="Suplantar la identidad de otra persona o entidad." data-en="Impersonate another person or entity.">Suplantar la identidad de otra persona o entidad.</li>
-          <li data-es="Usar medios automáticos (bots, scrapers) para acceder o extraer datos de la app." data-en="Use automated means (bots, scrapers) to access or extract data from the app.">Us[...]
-          <li data-es="Violar cualquier ley o regulación aplicable en tu jurisdicción." data-en="Violate any applicable law or regulation in your jurisdiction.">Violar cualquier ley o regulaci�[...]
+          <li data-es="Usar medios automáticos (bots, scrapers) para acceder o extraer datos de la app." data-en="Use automated means (bots, scrapers) to access or extract data from the app.">Usar medios automáticos (bots, scrapers) para acceder o extraer datos de la app.</li>
+          <li data-es="Violar cualquier ley o regulación aplicable en tu jurisdicción." data-en="Violate any applicable law or regulation in your jurisdiction.">Violar cualquier ley o regulación aplicable.</li>
         </ul>
-        <p data-es="tribo puede suspender o eliminar las cuentas que incumplan estas normas sin previo aviso." data-en="tribo may suspend or delete accounts that violate these rules without prior[...]
+        <p data-es="tribo puede suspender o eliminar las cuentas que incumplan estas normas sin previo aviso." data-en="tribo may suspend or delete accounts that violate these rules without prior notice.">tribo puede suspender o eliminar las cuentas que incumplan estas normas sin previo aviso.</p>
       </section>
 
       <!-- S5 -->
@@ -119,16 +140,16 @@
           <span class="legal-section__num">05</span>
           <span data-es="Modelo de pago y Tribo Prime" data-en="Payment model and Tribo Prime">Modelo de pago y Tribo Prime</span>
         </h2>
-        <p data-es="tribo ofrece un plan gratuito con funcionalidades básicas y Tribo Prime, una compra única por viaje que desbloquea funciones adicionales." data-en="tribo offers a free plan [...]
+        <p data-es="tribo ofrece un plan gratuito con funcionalidades básicas y Tribo Prime, una compra única por viaje que desbloquea funciones adicionales." data-en="tribo offers a free plan with basic features and Tribo Prime, a one-off purchase per trip that unlocks additional features.">tribo ofrece un plan gratuito con funcionalidades básicas y <strong>Tribo Prime</strong>, una compra única por viaje que desbloquea funciones adicionales.</p>
 
         <p><strong data-es="Características del modelo de pago:" data-en="Payment model characteristics:">Características del modelo de pago:</strong></p>
         <ul>
-          <li data-es="Tribo Prime es un pago único por viaje. No es una suscripción recurrente." data-en="Tribo Prime is a one-off payment per trip. It is not a recurring subscription.">Tribo [...]
-          <li data-es="El precio del viaje se muestra claramente antes de la compra." data-en="The trip price is clearly shown before purchase.">El precio del viaje se muestra claramente antes de[...]
-          <li data-es="Todos los pagos se procesan directamente a través de Apple App Store o Google Play Store. tribo no gestiona ni almacena datos de pago." data-en="All payments are processed[...]
-          <li data-es="La política de reembolsos está sujeta a las normas de Apple o Google según la plataforma que uses. Para solicitar un reembolso, debes hacerlo directamente a través de A[...]
+          <li data-es="Tribo Prime es un pago único por viaje. No es una suscripción recurrente." data-en="Tribo Prime is a one-off payment per trip. It is not a recurring subscription.">Tribo Prime es un <strong>pago único por viaje</strong>. No es una suscripción recurrente.</li>
+          <li data-es="El precio del viaje se muestra claramente antes de la compra." data-en="The trip price is clearly shown before purchase.">El precio del viaje se muestra claramente antes de la compra.</li>
+          <li data-es="Todos los pagos se procesan directamente a través de Apple App Store o Google Play Store. tribo no gestiona ni almacena datos de pago." data-en="All payments are processed directly through the Apple App Store or Google Play Store. tribo does not manage or store payment data.">Todos los pagos se procesan directamente a través de <strong>Apple App Store o Google Play Store</strong>. tribo no gestiona ni almacena datos de pago.</li>
+          <li data-es="La política de reembolsos está sujeta a las normas de Apple o Google según la plataforma que uses. Para solicitar un reembolso, debes hacerlo directamente a través de Apple o Google." data-en="The refund policy is subject to Apple's or Google's rules depending on the platform you use. To request a refund, you must do so directly through Apple or Google.">Los reembolsos están sujetos a las políticas de Apple o Google. Para solicitarlos, dirígete directamente a la plataforma correspondiente.</li>
         </ul>
-        <div class="legal-callout" data-es="tribo no procesa pagos directamente ni tiene acceso a los datos de tu tarjeta de crédito. Toda la gestión económica la realizan Apple y Google confo[...]
+        <div class="legal-callout" data-es="tribo no procesa pagos directamente ni tiene acceso a los datos de tu tarjeta de crédito. Toda la gestión económica la realizan Apple y Google conforme a sus propias políticas." data-en="tribo does not process payments directly and has no access to your credit card details. All financial management is carried out by Apple and Google in accordance with their own policies.">
           tribo no procesa pagos directamente ni tiene acceso a los datos de tu tarjeta de crédito. Toda la gestión económica la realizan Apple y Google.
         </div>
       </section>
@@ -139,10 +160,10 @@
           <span class="legal-section__num">06</span>
           <span data-es="Contenido del usuario" data-en="User content">Contenido del usuario</span>
         </h2>
-        <p data-es="Eres el único responsable del contenido que publicas o compartes en tribo: nombres de viajes, comentarios en el itinerario, gastos registrados, imágenes de perfil, etc." dat[...]
-        <p data-es="Al publicar contenido en tribo, nos concedes una licencia no exclusiva, gratuita y mundial para almacenar, mostrar y transmitir dicho contenido dentro de la app y únicamente [...]
-        <p data-es="tribo se reserva el derecho de eliminar cualquier contenido que viole estos Términos de Uso, sin necesidad de aviso previo." data-en="tribo reserves the right to remove any c[...]
-        <p data-es="La propiedad del contenido que creas sigue siendo tuya en todo momento." data-en="Ownership of the content you create remains yours at all times.">La propiedad del contenido q[...]
+        <p data-es="Eres el único responsable del contenido que publicas o compartes en tribo: nombres de viajes, comentarios en el itinerario, gastos registrados, imágenes de perfil, etc." data-en="You are solely responsible for the content you post or share on tribo: trip names, itinerary comments, recorded expenses, profile pictures, etc.">Eres el único responsable del contenido que publicas o compartes en tribo.</p>
+        <p data-es="Al publicar contenido en tribo, nos concedes una licencia no exclusiva, gratuita y mundial para almacenar, mostrar y transmitir dicho contenido dentro de la app y únicamente con el fin de prestar el servicio." data-en="By posting content on tribo, you grant us a non-exclusive, royalty-free, worldwide licence to store, display and transmit that content within the app and solely for the purpose of providing the service.">Al publicar contenido en tribo, nos concedes una licencia no exclusiva para almacenar y mostrar dicho contenido dentro de la app con el fin de prestar el servicio.</p>
+        <p data-es="tribo se reserva el derecho de eliminar cualquier contenido que viole estos Términos de Uso, sin necesidad de aviso previo." data-en="tribo reserves the right to remove any content that violates these Terms of Use, without prior notice.">tribo se reserva el derecho de eliminar cualquier contenido que viole estos Términos de Uso, sin necesidad de aviso previo.</p>
+        <p data-es="La propiedad del contenido que creas sigue siendo tuya en todo momento." data-en="Ownership of the content you create remains yours at all times.">La propiedad del contenido que creas sigue siendo tuya en todo momento.</p>
       </section>
 
       <!-- S7 -->
@@ -151,14 +172,14 @@
           <span class="legal-section__num">07</span>
           <span data-es="Limitación de responsabilidad" data-en="Limitation of liability">Limitación de responsabilidad</span>
         </h2>
-        <p data-es="tribo es una herramienta de organización y comunicación para grupos de viaje. En consecuencia:" data-en="tribo is an organisational and communication tool for travel groups.[...]
+        <p data-es="tribo es una herramienta de organización y comunicación para grupos de viaje. En consecuencia:" data-en="tribo is an organisational and communication tool for travel groups. Accordingly:">tribo es una herramienta de organización y comunicación para grupos de viaje. En consecuencia:</p>
         <ul>
-          <li data-es="tribo no es responsable de los planes de viaje acordados por los usuarios, ni de su ejecución, cancelación o cualquier incidencia durante el viaje." data-en="tribo is not[...]
-          <li data-es="tribo no es responsable de disputas, desacuerdos o conflictos económicos entre los miembros de un grupo de viaje." data-en="tribo is not responsible for disputes, disagree[...]
-          <li data-es="tribo no garantiza la disponibilidad ininterrumpida del servicio. Pueden existir períodos de mantenimiento o interrupciones técnicas." data-en="tribo does not guarantee u[...]
-          <li data-es="En ningún caso la responsabilidad total de tribo hacia un usuario superará el importe abonado por ese usuario en los últimos 12 meses." data-en="In no event shall tribo'[...]
+          <li data-es="tribo no es responsable de los planes de viaje acordados por los usuarios, ni de su ejecución, cancelación o cualquier incidencia durante el viaje." data-en="tribo is not responsible for travel plans agreed upon by users, nor for their execution, cancellation or any incident during the trip.">tribo no es responsable de los planes de viaje acordados por los usuarios, ni de su ejecución o cancelación.</li>
+          <li data-es="tribo no es responsable de disputas, desacuerdos o conflictos económicos entre los miembros de un grupo de viaje." data-en="tribo is not responsible for disputes, disagreements or financial conflicts between members of a travel group.">tribo no es responsable de disputas o conflictos económicos entre los miembros de un grupo de viaje.</li>
+          <li data-es="tribo no garantiza la disponibilidad ininterrumpida del servicio. Pueden existir períodos de mantenimiento o interrupciones técnicas." data-en="tribo does not guarantee uninterrupted service availability. There may be periods of maintenance or technical interruptions.">tribo no garantiza la disponibilidad ininterrumpida del servicio.</li>
+          <li data-es="En ningún caso la responsabilidad total de tribo hacia un usuario superará el importe abonado por ese usuario en los últimos 12 meses." data-en="In no event shall tribo's total liability to a user exceed the amount paid by that user in the past 12 months.">En ningún caso la responsabilidad total de tribo hacia un usuario superará el importe abonado en los últimos 12 meses.</li>
         </ul>
-        <p data-es="Lo anterior no excluye ninguna responsabilidad que no pueda limitarse legalmente según la legislación aplicable." data-en="The above does not exclude any liability that cann[...]
+        <p data-es="Lo anterior no excluye ninguna responsabilidad que no pueda limitarse legalmente según la legislación aplicable." data-en="The above does not exclude any liability that cannot be limited by law under applicable legislation.">Lo anterior no excluye ninguna responsabilidad que no pueda limitarse legalmente.</p>
       </section>
 
       <!-- S8 -->
@@ -167,9 +188,9 @@
           <span class="legal-section__num">08</span>
           <span data-es="Propiedad intelectual" data-en="Intellectual property">Propiedad intelectual</span>
         </h2>
-        <p data-es="Todo el contenido de tribo — incluyendo diseño, logotipo, código, textos, gráficos, interfaz y marca — es propiedad exclusiva de tribo o de sus licenciantes, y está pr[...]
-        <p data-es="No está permitido copiar, reproducir, distribuir, modificar o crear trabajos derivados del contenido de tribo sin autorización expresa y por escrito." data-en="It is not per[...]
-        <p data-es="El contenido que tú creas dentro de la app (nombres de viaje, comentarios, etc.) es de tu propiedad. tribo no reclama derechos de propiedad intelectual sobre el contenido gen[...]
+        <p data-es="Todo el contenido de tribo — incluyendo diseño, logotipo, código, textos, gráficos, interfaz y marca — es propiedad exclusiva de tribo o de sus licenciantes, y está protegido por las leyes de propiedad intelectual aplicables." data-en="All tribo content — including design, logo, code, texts, graphics, interface and brand — is the exclusive property of tribo or its licensors, and is protected by applicable intellectual property laws.">Todo el contenido de tribo — diseño, logotipo, código, textos, interfaz y marca — es propiedad exclusiva de tribo y está protegido por las leyes de propiedad intelectual aplicables.</p>
+        <p data-es="No está permitido copiar, reproducir, distribuir, modificar o crear trabajos derivados del contenido de tribo sin autorización expresa y por escrito." data-en="It is not permitted to copy, reproduce, distribute, modify or create derivative works from tribo's content without express written authorisation.">No está permitido copiar, reproducir o distribuir el contenido de tribo sin autorización expresa y por escrito.</p>
+        <p data-es="El contenido que tú creas dentro de la app (nombres de viaje, comentarios, etc.) es de tu propiedad. tribo no reclama derechos de propiedad intelectual sobre el contenido generado por los usuarios." data-en="Content you create within the app (trip names, comments, etc.) is your property. tribo does not claim intellectual property rights over user-generated content.">El contenido que tú creas dentro de la app es de tu propiedad. tribo no reclama derechos sobre el contenido generado por los usuarios.</p>
       </section>
 
       <!-- S9 -->
@@ -178,9 +199,9 @@
           <span class="legal-section__num">09</span>
           <span data-es="Cancelación y terminación de cuenta" data-en="Account cancellation and termination">Cancelación y terminación de cuenta</span>
         </h2>
-        <p><strong data-es="Por tu parte:" data-en="On your part:">Por tu parte:</strong> <span data-es="puedes eliminar tu cuenta en cualquier momento desde Perfil → Ajustes → Eliminar cuent[...]
-        <p><strong data-es="Por nuestra parte:" data-en="On our part:">Por nuestra parte:</strong> <span data-es="tribo puede suspender o eliminar una cuenta si el usuario incumple estos Término[...]
-        <p data-es="La cancelación de la cuenta no da derecho a reembolso de compras ya procesadas, salvo lo establecido por las políticas de Apple o Google." data-en="Account cancellation does[...]
+        <p><strong data-es="Por tu parte:" data-en="On your part:">Por tu parte:</strong> <span data-es="puedes eliminar tu cuenta en cualquier momento desde Perfil → Ajustes → Eliminar cuenta, o contactando con nosotros. La eliminación es permanente e irreversible." data-en="you can delete your account at any time from Profile → Settings → Delete account, or by contacting us. Deletion is permanent and irreversible.">puedes eliminar tu cuenta en cualquier momento desde la app. La eliminación es permanente e irreversible.</span></p>
+        <p><strong data-es="Por nuestra parte:" data-en="On our part:">Por nuestra parte:</strong> <span data-es="tribo puede suspender o eliminar una cuenta si el usuario incumple estos Términos de Uso, si se detecta actividad fraudulenta o si así lo exige una obligación legal. En caso de suspensión injustificada, te notificaremos y podrás apelar la decisión." data-en="tribo may suspend or delete an account if the user violates these Terms of Use, if fraudulent activity is detected, or if required by a legal obligation. In the event of unjustified suspension, we will notify you and you may appeal the decision.">tribo puede suspender o eliminar una cuenta ante incumplimiento de estos términos o actividad fraudulenta.</span></p>
+        <p data-es="La cancelación de la cuenta no da derecho a reembolso de compras ya procesadas, salvo lo establecido por las políticas de Apple o Google." data-en="Account cancellation does not entitle you to a refund of already processed purchases, except as provided by Apple's or Google's policies.">La cancelación de la cuenta no da derecho a reembolso de compras ya procesadas, salvo lo establecido por Apple o Google.</p>
       </section>
 
       <!-- S10 -->
@@ -189,8 +210,8 @@
           <span class="legal-section__num">10</span>
           <span data-es="Cambios en los términos" data-en="Changes to the terms">Cambios en los términos</span>
         </h2>
-        <p data-es="tribo puede actualizar estos Términos de Uso cuando sea necesario. Cuando realicemos cambios relevantes, te lo comunicaremos a través de la app o por correo electrónico con[...]
-        <p data-es="El uso continuado de la app tras la entrada en vigor de los nuevos términos implica su aceptación. Si no estás de acuerdo con los cambios, puedes eliminar tu cuenta." data-[...]
+        <p data-es="tribo puede actualizar estos Términos de Uso cuando sea necesario. Cuando realicemos cambios relevantes, te lo comunicaremos a través de la app o por correo electrónico con al menos 15 días de antelación a su entrada en vigor." data-en="tribo may update these Terms of Use when necessary. When we make material changes, we will inform you through the app or by email at least 15 days before they take effect.">tribo puede actualizar estos Términos cuando sea necesario. Cuando realicemos cambios relevantes, te lo comunicaremos con al menos 15 días de antelación.</p>
+        <p data-es="El uso continuado de la app tras la entrada en vigor de los nuevos términos implica su aceptación. Si no estás de acuerdo con los cambios, puedes eliminar tu cuenta." data-en="Continued use of the app after the new terms take effect implies acceptance. If you disagree with the changes, you may delete your account.">El uso continuado de la app tras la entrada en vigor de los nuevos términos implica su aceptación.</p>
       </section>
 
       <!-- S11 -->
@@ -199,8 +220,8 @@
           <span class="legal-section__num">11</span>
           <span data-es="Ley aplicable y jurisdicción" data-en="Governing law and jurisdiction">Ley aplicable y jurisdicción</span>
         </h2>
-        <p data-es="Estos Términos de Uso se rigen por la legislación española. Para cualquier controversia derivada de estos términos o del uso de la app, las partes se someten a la jurisdic[...]
-        <p data-es="En caso de conflicto entre la versión en español y la versión en inglés de estos términos, prevalecerá la versión en español." data-en="In the event of a conflict betw[...]
+        <p data-es="Estos Términos de Uso se rigen por la legislación española. Para cualquier controversia derivada de estos términos o del uso de la app, las partes se someten a la jurisdicción de los juzgados y tribunales de España, salvo que la normativa de protección del consumidor aplicable en tu país de residencia establezca otra cosa." data-en="These Terms of Use are governed by Spanish law. For any dispute arising from these terms or the use of the app, the parties submit to the jurisdiction of the courts and tribunals of Spain, unless the consumer protection regulations applicable in your country of residence provide otherwise.">Estos Términos de Uso se rigen por la <strong>legislación española</strong>. Para cualquier controversia, las partes se someten a la jurisdicción de los juzgados y tribunales de España, salvo que la normativa de protección del consumidor de tu país establezca otra cosa.</p>
+        <p data-es="En caso de conflicto entre la versión en español y la versión en inglés de estos términos, prevalecerá la versión en español." data-en="In the event of a conflict between the Spanish and English versions of these terms, the Spanish version shall prevail.">En caso de conflicto entre la versión en español y en inglés de estos términos, prevalecerá la versión en español.</p>
       </section>
 
       <!-- S12 -->
@@ -209,10 +230,10 @@
           <span class="legal-section__num">12</span>
           <span data-es="Contacto" data-en="Contact">Contacto</span>
         </h2>
-        <p data-es="Si tienes preguntas sobre estos Términos de Uso, puedes contactarnos en:" data-en="If you have questions about these Terms of Use, you can contact us at:">Si tienes preguntas[...]
+        <p data-es="Si tienes preguntas sobre estos Términos de Uso, puedes contactarnos en:" data-en="If you have questions about these Terms of Use, you can contact us at:">Si tienes preguntas sobre estos Términos de Uso, puedes contactarnos en:</p>
         <p><strong>tribo</strong><br>
         <a href="mailto:tribo.contactos@gmail.com">tribo.contactos@gmail.com</a></p>
-        <p data-es="Responderemos en un plazo máximo de 30 días hábiles." data-en="We will respond within a maximum of 30 business days.">Responderemos en un plazo máximo de 30 días hábiles[...]
+        <p data-es="Responderemos en un plazo máximo de 30 días hábiles." data-en="We will respond within a maximum of 30 business days.">Responderemos en un plazo máximo de 30 días hábiles.</p>
       </section>
 
     </main>
