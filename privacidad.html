@@ -21,6 +21,27 @@
     </div>
   </nav>
 
+  <!-- HEADER LEGAL -->
+  <header class="legal-header">
+    <div class="legal-header__inner">
+      <div class="lang-toggle" role="group" aria-label="Seleccionar idioma">
+        <button class="lang-btn active" id="btn-es" onclick="setLang('es')" aria-pressed="true">ES</button>
+        <button class="lang-btn" id="btn-en" onclick="setLang('en')" aria-pressed="false">EN</button>
+      </div>
+
+      <nav class="breadcrumb" aria-label="Ruta de navegación">
+        <a href="index.html">tribo</a>
+        <span class="breadcrumb__sep">→</span>
+        <span>Legal</span>
+        <span class="breadcrumb__sep">→</span>
+        <span class="breadcrumb__current" data-es="Política de Privacidad" data-en="Privacy Policy">Política de Privacidad</span>
+      </nav>
+
+      <h1 class="legal-header__title" data-es="Política de Privacidad" data-en="Privacy Policy">Política de Privacidad</h1>
+      <div class="legal-date-chip" data-es="Última actualización: mayo 2026" data-en="Last updated: May 2026">Última actualización: mayo 2026</div>
+    </div>
+  </header>
+
   <!-- BODY -->
   <div class="legal-body">
 
@@ -46,8 +67,8 @@
 
       <!-- INTRO -->
       <div class="legal-section" style="border-bottom:none; padding-bottom:0; margin-bottom:36px;">
-        <p data-es='En tribo ("nosotros", "nuestro") nos comprometemos a proteger tu privacidad. Esta Política de Privacidad explica qué datos personales recogemos cuando usas la aplicación mó[...]
-        En tribo ("nosotros", "nuestro") nos comprometemos a proteger tu privacidad. Esta Política de Privacidad explica qué datos personales recogemos cuando usas la aplicación móvil tribo (d[...]
+        <p data-es='En tribo ("nosotros", "nuestro") nos comprometemos a proteger tu privacidad. Esta Política de Privacidad explica qué datos personales recogemos cuando usas la aplicación móvil tribo (disponible en iOS y Android), cómo los utilizamos y cuáles son tus derechos. Al usar tribo, aceptas las prácticas descritas en esta política.' data-en='At tribo ("we", "our", "us") we are committed to protecting your privacy. This Privacy Policy explains what personal data we collect when you use the tribo mobile application (available on iOS and Android), how we use it, and what your rights are. By using tribo, you accept the practices described in this policy.'>
+        En tribo ("nosotros", "nuestro") nos comprometemos a proteger tu privacidad. Esta Política de Privacidad explica qué datos personales recogemos cuando usas la aplicación móvil tribo (disponible en iOS y Android), cómo los utilizamos y cuáles son tus derechos. Al usar tribo, aceptas las prácticas descritas en esta política.
         </p>
       </div>
 
@@ -63,21 +84,21 @@
         <ul>
           <li data-es="Nombre de usuario y dirección de correo electrónico." data-en="Username and email address.">Nombre de usuario y dirección de correo electrónico.</li>
           <li data-es="Foto de perfil (opcional, proporcionada por ti)." data-en="Profile photo (optional, provided by you).">Foto de perfil (opcional, proporcionada por ti).</li>
-          <li data-es="Si inicias sesión con Google o Apple, recibimos el nombre y email asociados a esa cuenta." data-en="If you sign in with Google or Apple, we receive the name and email assoc[...]
+          <li data-es="Si inicias sesión con Google o Apple, recibimos el nombre y email asociados a esa cuenta." data-en="If you sign in with Google or Apple, we receive the name and email associated with that account.">Si inicias sesión con Google o Apple, recibimos el nombre y email asociados a esa cuenta.</li>
         </ul>
 
         <p><strong data-es="Datos de uso de la app:" data-en="App usage data:">Datos de uso de la app:</strong></p>
         <ul>
-          <li data-es="Viajes creados: nombre del viaje, fechas, destinos seleccionados y miembros del grupo." data-en="Trips created: trip name, dates, selected destinations, and group members.">[...]
+          <li data-es="Viajes creados: nombre del viaje, fechas, destinos seleccionados y miembros del grupo." data-en="Trips created: trip name, dates, selected destinations, and group members.">Viajes creados: nombre del viaje, fechas, destinos seleccionados y miembros del grupo.</li>
           <li data-es="Votos de destinos dentro de cada viaje." data-en="Destination votes within each trip.">Votos de destinos dentro de cada viaje.</li>
-          <li data-es="Gastos registrados en el viaje: concepto, importe, quién pagó y quién debe." data-en="Trip expenses: description, amount, who paid, and who owes.">Gastos registrados en e[...]
+          <li data-es="Gastos registrados en el viaje: concepto, importe, quién pagó y quién debe." data-en="Trip expenses: description, amount, who paid, and who owes.">Gastos registrados en el viaje: concepto, importe, quién pagó y quién debe.</li>
           <li data-es="Comentarios y anotaciones en el itinerario del viaje." data-en="Comments and notes in the trip itinerary.">Comentarios y anotaciones en el itinerario del viaje.</li>
         </ul>
 
         <p><strong data-es="Datos técnicos:" data-en="Technical data:">Datos técnicos:</strong></p>
         <ul>
-          <li data-es="Push token de tu dispositivo, para enviarte notificaciones relacionadas con tus viajes (si has dado permiso)." data-en="Device push token, to send you notifications related[...]
-          <li data-es="Datos de compra gestionados íntegramente por Apple, Google y RevenueCat. tribo no almacena datos de tarjetas de crédito ni información bancaria." data-en="Purchase data [...]
+          <li data-es="Push token de tu dispositivo, para enviarte notificaciones relacionadas con tus viajes (si has dado permiso)." data-en="Device push token, to send you notifications related to your trips (if you have granted permission).">Push token de tu dispositivo, para enviarte notificaciones relacionadas con tus viajes (si has dado permiso).</li>
+          <li data-es="Datos de compra gestionados íntegramente por Apple, Google y RevenueCat. tribo no almacena datos de tarjetas de crédito ni información bancaria." data-en="Purchase data managed entirely by Apple, Google, and RevenueCat. tribo does not store credit card or banking information.">Datos de compra gestionados íntegramente por Apple, Google y RevenueCat. tribo no almacena datos de tarjetas de crédito ni información bancaria.</li>
         </ul>
       </section>
 
@@ -90,14 +111,14 @@
         <p data-es="Usamos tus datos exclusivamente para:" data-en="We use your data exclusively to:">Usamos tus datos exclusivamente para:</p>
         <ul>
           <li data-es="Crear y gestionar tu cuenta de usuario." data-en="Create and manage your user account.">Crear y gestionar tu cuenta de usuario.</li>
-          <li data-es="Permitirte crear viajes, invitar a miembros de tu grupo y colaborar en tiempo real." data-en="Allow you to create trips, invite group members, and collaborate in real time.[...]
-          <li data-es="Mostrar el sistema de votación de destinos y registrar los resultados." data-en="Display the destination voting system and record the results.">Mostrar el sistema de votac[...]
+          <li data-es="Permitirte crear viajes, invitar a miembros de tu grupo y colaborar en tiempo real." data-en="Allow you to create trips, invite group members, and collaborate in real time.">Permitirte crear viajes, invitar a miembros de tu grupo y colaborar en tiempo real.</li>
+          <li data-es="Mostrar el sistema de votación de destinos y registrar los resultados." data-en="Display the destination voting system and record the results.">Mostrar el sistema de votación de destinos y registrar los resultados.</li>
           <li data-es="Gestionar los gastos compartidos del viaje." data-en="Manage shared trip expenses.">Gestionar los gastos compartidos del viaje.</li>
-          <li data-es="Enviarte notificaciones push relevantes: nuevos miembros en tu viaje, resultados de votación, cambios en el itinerario (solo si lo has activado)." data-en="Send you releva[...]
-          <li data-es="Procesar tu compra de Tribo Prime a través de las plataformas de Apple y Google." data-en="Process your Tribo Prime purchase through Apple and Google platforms.">Procesar [...]
-          <li data-es="Mejorar la aplicación basándonos en el uso general y detectar errores técnicos." data-en="Improve the application based on general usage and detect technical errors.">Me[...]
+          <li data-es="Enviarte notificaciones push relevantes: nuevos miembros en tu viaje, resultados de votación, cambios en el itinerario (solo si lo has activado)." data-en="Send you relevant push notifications: new members in your trip, voting results, itinerary changes (only if you have enabled this).">Enviarte notificaciones push relevantes: nuevos miembros en tu viaje, resultados de votación, cambios en el itinerario.</li>
+          <li data-es="Procesar tu compra de Tribo Prime a través de las plataformas de Apple y Google." data-en="Process your Tribo Prime purchase through Apple and Google platforms.">Procesar tu compra de Tribo Prime a través de las plataformas de Apple y Google.</li>
+          <li data-es="Mejorar la aplicación basándonos en el uso general y detectar errores técnicos." data-en="Improve the application based on general usage and detect technical errors.">Mejorar la aplicación basándonos en el uso general y detectar errores técnicos.</li>
         </ul>
-        <div class="legal-callout" data-es="No vendemos tus datos a terceros. No usamos tus datos para publicidad. No realizamos perfilado automático para decisiones que te afecten significativa[...]
+        <div class="legal-callout" data-es="No vendemos tus datos a terceros. No usamos tus datos para publicidad. No realizamos perfilado automático para decisiones que te afecten significativamente." data-en="We do not sell your data to third parties. We do not use your data for advertising. We do not carry out automated profiling for decisions that significantly affect you.">
           No vendemos tus datos a terceros. No usamos tus datos para publicidad. No realizamos perfilado automático para decisiones que te afecten significativamente.
         </div>
       </section>
@@ -108,7 +129,7 @@
           <span class="legal-section__num">03</span>
           <span data-es="Terceros con acceso a tus datos" data-en="Third parties with access to your data">Terceros con acceso a tus datos</span>
         </h2>
-        <p data-es="Para ofrecer el servicio usamos los siguientes proveedores de confianza:" data-en="To provide the service we use the following trusted providers:">Para ofrecer el servicio usa[...]
+        <p data-es="Para ofrecer el servicio usamos los siguientes proveedores de confianza:" data-en="To provide the service we use the following trusted providers:">Para ofrecer el servicio usamos los siguientes proveedores de confianza:</p>
 
         <table class="legal-table">
           <thead>
@@ -121,7 +142,7 @@
           <tbody>
             <tr>
               <td><strong>Supabase</strong></td>
-              <td data-es="Base de datos y autenticación. Almacena tu cuenta y los datos de tus viajes." data-en="Database and authentication. Stores your account and trip data.">Base de datos y[...]
+              <td data-es="Base de datos y autenticación. Almacena tu cuenta y los datos de tus viajes." data-en="Database and authentication. Stores your account and trip data.">Base de datos y autenticación</td>
               <td><a href="https://supabase.com/privacy" target="_blank" rel="noopener">supabase.com/privacy</a></td>
             </tr>
             <tr>
@@ -146,13 +167,13 @@
             </tr>
             <tr>
               <td><strong>Unsplash</strong></td>
-              <td data-es="Imágenes de destinos mostradas en la app. Solo se consulta la API, no se comparten datos de usuario." data-en="Destination images shown in the app. Only the API is que[...]
+              <td data-es="Imágenes de destinos mostradas en la app. Solo se consulta la API, no se comparten datos de usuario." data-en="Destination images shown in the app. Only the API is queried; no user data is shared.">Imágenes de destinos</td>
               <td><a href="https://unsplash.com/privacy" target="_blank" rel="noopener">unsplash.com/privacy</a></td>
             </tr>
           </tbody>
         </table>
 
-        <p data-es="Todos los proveedores listados cumplen con el Reglamento General de Protección de Datos (RGPD) de la Unión Europea." data-en="All listed providers comply with the European U[...]
+        <p data-es="Todos los proveedores listados cumplen con el Reglamento General de Protección de Datos (RGPD) de la Unión Europea." data-en="All listed providers comply with the European Union's General Data Protection Regulation (GDPR).">Todos los proveedores listados cumplen con el Reglamento General de Protección de Datos (RGPD) de la Unión Europea.</p>
       </section>
 
       <!-- S4 -->
@@ -162,10 +183,10 @@
           <span data-es="Cuánto tiempo guardamos tus datos" data-en="How long we keep your data">Cuánto tiempo guardamos tus datos</span>
         </h2>
         <ul>
-          <li data-es="Tus datos de cuenta y de viajes se conservan mientras tu cuenta esté activa." data-en="Your account and trip data are retained while your account is active.">Tus datos de [...]
-          <li data-es="Si eliminas tu cuenta, borraremos todos tus datos personales en un plazo máximo de 30 días." data-en="If you delete your account, we will delete all your personal data wi[...]
-          <li data-es="Los datos de gastos compartidos con otros miembros del viaje se anonomizan al eliminar la cuenta, para no afectar al historial del grupo." data-en="Shared expense data with[...]
-          <li data-es="Los registros técnicos (logs) se eliminan automáticamente a los 90 días." data-en="Technical logs are automatically deleted after 90 days.">Los registros técnicos (logs[...]
+          <li data-es="Tus datos de cuenta y de viajes se conservan mientras tu cuenta esté activa." data-en="Your account and trip data are retained while your account is active.">Tus datos de cuenta y de viajes se conservan mientras tu cuenta esté activa.</li>
+          <li data-es="Si eliminas tu cuenta, borraremos todos tus datos personales en un plazo máximo de 30 días." data-en="If you delete your account, we will delete all your personal data within a maximum of 30 days.">Si eliminas tu cuenta, borraremos todos tus datos personales en un plazo máximo de 30 días.</li>
+          <li data-es="Los datos de gastos compartidos con otros miembros del viaje se anonomizan al eliminar la cuenta, para no afectar al historial del grupo." data-en="Shared expense data with other trip members is anonymised upon account deletion, so as not to affect the group's history.">Los datos de gastos compartidos con otros miembros del viaje se anonimizan al eliminar la cuenta.</li>
+          <li data-es="Los registros técnicos (logs) se eliminan automáticamente a los 90 días." data-en="Technical logs are automatically deleted after 90 days.">Los registros técnicos (logs) se eliminan automáticamente a los 90 días.</li>
         </ul>
       </section>
 
@@ -175,16 +196,16 @@
           <span class="legal-section__num">05</span>
           <span data-es="Tus derechos" data-en="Your rights">Tus derechos</span>
         </h2>
-        <p data-es="Como usuario de tribo tienes los siguientes derechos sobre tus datos personales:" data-en="As a tribo user you have the following rights over your personal data:">Como usuario[...]
+        <p data-es="Como usuario de tribo tienes los siguientes derechos sobre tus datos personales:" data-en="As a tribo user you have the following rights over your personal data:">Como usuario de tribo tienes los siguientes derechos sobre tus datos personales:</p>
         <ul>
-          <li><strong data-es="Acceso:" data-en="Access:">Acceso:</strong> <span data-es="puedes solicitar una copia de todos los datos que tenemos sobre ti." data-en="you can request a copy of a[...]
-          <li><strong data-es="Rectificación:" data-en="Rectification:">Rectificación:</strong> <span data-es="puedes corregir cualquier dato incorrecto directamente desde la app en Perfil → [...]
-          <li><strong data-es="Eliminación:" data-en="Deletion:">Eliminación:</strong> <span data-es="puedes eliminar tu cuenta y todos tus datos desde la app en Perfil → Ajustes → Eliminar[...]
-          <li><strong data-es="Portabilidad:" data-en="Portability:">Portabilidad:</strong> <span data-es="puedes solicitar la exportación de tus datos en formato legible por máquina." data-en=[...]
-          <li><strong data-es="Oposición:" data-en="Objection:">Oposición:</strong> <span data-es="puedes oponerte al tratamiento de tus datos en cualquier momento." data-en="you can object to [...]
-          <li><strong data-es="Retirada del consentimiento:" data-en="Withdrawal of consent:">Retirada del consentimiento:</strong> <span data-es="puedes retirar tu consentimiento en cualquier mo[...]
+          <li><strong data-es="Acceso:" data-en="Access:">Acceso:</strong> <span data-es="puedes solicitar una copia de todos los datos que tenemos sobre ti." data-en="you can request a copy of all data we hold about you.">puedes solicitar una copia de todos los datos que tenemos sobre ti.</span></li>
+          <li><strong data-es="Rectificación:" data-en="Rectification:">Rectificación:</strong> <span data-es="puedes corregir cualquier dato incorrecto directamente desde la app en Perfil → Ajustes, o contactándonos." data-en="you can correct any incorrect data directly from the app under Profile → Settings, or by contacting us.">puedes corregir cualquier dato incorrecto directamente desde la app o contactándonos.</span></li>
+          <li><strong data-es="Eliminación:" data-en="Deletion:">Eliminación:</strong> <span data-es="puedes eliminar tu cuenta y todos tus datos desde la app en Perfil → Ajustes → Eliminar cuenta, o enviando un correo a" data-en="you can delete your account and all your data from the app under Profile → Settings → Delete account, or by emailing">puedes eliminar tu cuenta y todos tus datos desde la app o enviando un correo a</span> <a href="mailto:tribo.contactos@gmail.com">tribo.contactos@gmail.com</a>.</li>
+          <li><strong data-es="Portabilidad:" data-en="Portability:">Portabilidad:</strong> <span data-es="puedes solicitar la exportación de tus datos en formato legible por máquina." data-en="you can request an export of your data in machine-readable format.">puedes solicitar la exportación de tus datos en formato legible por máquina.</span></li>
+          <li><strong data-es="Oposición:" data-en="Objection:">Oposición:</strong> <span data-es="puedes oponerte al tratamiento de tus datos en cualquier momento." data-en="you can object to the processing of your data at any time.">puedes oponerte al tratamiento de tus datos en cualquier momento.</span></li>
+          <li><strong data-es="Retirada del consentimiento:" data-en="Withdrawal of consent:">Retirada del consentimiento:</strong> <span data-es="puedes retirar tu consentimiento en cualquier momento sin que afecte a la licitud del tratamiento previo." data-en="you can withdraw your consent at any time without affecting the lawfulness of prior processing.">puedes retirar tu consentimiento en cualquier momento.</span></li>
         </ul>
-        <p data-es="Para ejercer cualquiera de estos derechos, escríbenos a" data-en="To exercise any of these rights, write to us at">Para ejercer cualquiera de estos derechos, escríbenos a <a[...]
+        <p data-es="Para ejercer cualquiera de estos derechos, escríbenos a" data-en="To exercise any of these rights, write to us at">Para ejercer cualquiera de estos derechos, escríbenos a <a href="mailto:tribo.contactos@gmail.com">tribo.contactos@gmail.com</a>. <span data-es="Responderemos en un plazo máximo de 30 días." data-en="We will respond within a maximum of 30 days.">Responderemos en un plazo máximo de 30 días.</span></p>
       </section>
 
       <!-- S6 -->
@@ -193,9 +214,9 @@
           <span class="legal-section__num">06</span>
           <span data-es="Cookies y tecnologías de seguimiento" data-en="Cookies and tracking technologies">Cookies y tecnologías de seguimiento</span>
         </h2>
-        <p data-es="La aplicación móvil de tribo no usa cookies de seguimiento ni publicidad comportamental." data-en="The tribo mobile app does not use tracking cookies or behavioural advertis[...]
-        <p data-es="La landing page (este sitio web) puede utilizar cookies técnicas estrictamente necesarias para su funcionamiento. No utilizamos cookies de análisis ni publicidad de terceros[...]
-        <p data-es="Supabase puede almacenar tokens de sesión en el almacenamiento local del dispositivo para mantener tu sesión iniciada. Estos datos no se comparten con terceros y son necesar[...]
+        <p data-es="La aplicación móvil de tribo no usa cookies de seguimiento ni publicidad comportamental." data-en="The tribo mobile app does not use tracking cookies or behavioural advertising.">La aplicación móvil de tribo no usa cookies de seguimiento ni publicidad comportamental.</p>
+        <p data-es="La landing page (este sitio web) puede utilizar cookies técnicas estrictamente necesarias para su funcionamiento. No utilizamos cookies de análisis ni publicidad de terceros en la web." data-en="The landing page (this website) may use strictly necessary technical cookies for its operation. We do not use analytics or third-party advertising cookies on the website.">La landing page (este sitio web) puede utilizar cookies técnicas estrictamente necesarias para su funcionamiento. No utilizamos cookies de análisis ni publicidad de terceros.</p>
+        <p data-es="Supabase puede almacenar tokens de sesión en el almacenamiento local del dispositivo para mantener tu sesión iniciada. Estos datos no se comparten con terceros y son necesarios para el funcionamiento de la app." data-en="Supabase may store session tokens in the device's local storage to keep you logged in. This data is not shared with third parties and is necessary for the app to function.">Supabase puede almacenar tokens de sesión en el almacenamiento local del dispositivo para mantener tu sesión iniciada.</p>
       </section>
 
       <!-- S7 -->
@@ -204,8 +225,8 @@
           <span class="legal-section__num">07</span>
           <span data-es="Menores de edad" data-en="Minors">Menores de edad</span>
         </h2>
-        <p data-es="tribo está dirigida exclusivamente a personas mayores de 18 años. No recogemos conscientemente datos de menores de 18 años." data-en="tribo is intended exclusively for peop[...]
-        <p data-es="Si eres padre, madre o tutor y crees que tu hijo ha proporcionado datos personales a través de tribo, contáctanos en" data-en="If you are a parent or guardian and believe yo[...]
+        <p data-es="tribo está dirigida exclusivamente a personas mayores de 18 años. No recogemos conscientemente datos de menores de 18 años." data-en="tribo is intended exclusively for people aged 18 and over. We do not knowingly collect data from anyone under 18.">tribo está dirigida exclusivamente a personas mayores de 18 años. No recogemos conscientemente datos de menores de 18 años.</p>
+        <p data-es="Si eres padre, madre o tutor y crees que tu hijo ha proporcionado datos personales a través de tribo, contáctanos en" data-en="If you are a parent or guardian and believe your child has provided personal data through tribo, please contact us at">Si eres padre, madre o tutor y crees que tu hijo ha proporcionado datos personales a través de tribo, contáctanos en <a href="mailto:tribo.contactos@gmail.com">tribo.contactos@gmail.com</a>. <span data-es="Eliminaremos esos datos de inmediato." data-en="We will delete that data immediately.">Eliminaremos esos datos de inmediato.</span></p>
       </section>
 
       <!-- S8 -->
@@ -214,8 +235,8 @@
           <span class="legal-section__num">08</span>
           <span data-es="Cambios en esta política" data-en="Changes to this policy">Cambios en esta política</span>
         </h2>
-        <p data-es="Podemos actualizar esta Política de Privacidad ocasionalmente para reflejar cambios en la app o en la legislación aplicable. Cuando realicemos cambios significativos, te not[...]
-        <p data-es="La fecha de la última actualización siempre aparecerá al inicio de esta página." data-en="The date of the last update will always appear at the top of this page.">La fecha[...]
+        <p data-es="Podemos actualizar esta Política de Privacidad ocasionalmente para reflejar cambios en la app o en la legislación aplicable. Cuando realicemos cambios significativos, te notificaremos a través de la app o por correo electrónico con al menos 15 días de antelación." data-en="We may update this Privacy Policy occasionally to reflect changes in the app or applicable legislation. When we make significant changes, we will notify you through the app or by email at least 15 days in advance.">Podemos actualizar esta Política de Privacidad ocasionalmente. Cuando realicemos cambios significativos, te notificaremos a través de la app o por correo electrónico con al menos 15 días de antelación.</p>
+        <p data-es="La fecha de la última actualización siempre aparecerá al inicio de esta página." data-en="The date of the last update will always appear at the top of this page.">La fecha de la última actualización siempre aparecerá al inicio de esta página.</p>
       </section>
 
       <!-- S9 -->
@@ -224,11 +245,11 @@
           <span class="legal-section__num">09</span>
           <span data-es="Cumplimiento del RGPD" data-en="GDPR Compliance">Cumplimiento del RGPD</span>
         </h2>
-        <p data-es="Si resides en el Espacio Económico Europeo (EEE), el tratamiento de tus datos se rige por el Reglamento General de Protección de Datos (RGPD) de la UE." data-en="If you resi[...]
+        <p data-es="Si resides en el Espacio Económico Europeo (EEE), el tratamiento de tus datos se rige por el Reglamento General de Protección de Datos (RGPD) de la UE." data-en="If you reside in the European Economic Area (EEA), the processing of your data is governed by the EU General Data Protection Regulation (GDPR).">Si resides en el Espacio Económico Europeo (EEE), el tratamiento de tus datos se rige por el Reglamento General de Protección de Datos (RGPD) de la UE.</p>
         <ul>
-          <li data-es="Base legal del tratamiento: consentimiento del usuario y ejecución del contrato de servicio." data-en="Legal basis for processing: user consent and performance of the serv[...]
-          <li data-es="Responsable del tratamiento: tribo (tribo.contactos@gmail.com)." data-en="Data controller: tribo (tribo.contactos@gmail.com).">Responsable del tratamiento: tribo (tribo.con[...]
-          <li data-es="Tienes derecho a presentar una reclamación ante la Agencia Española de Protección de Datos (AEPD) en aepd.es si consideras que el tratamiento de tus datos no es correcto[...]
+          <li data-es="Base legal del tratamiento: consentimiento del usuario y ejecución del contrato de servicio." data-en="Legal basis for processing: user consent and performance of the service contract.">Base legal del tratamiento: consentimiento del usuario y ejecución del contrato de servicio.</li>
+          <li data-es="Responsable del tratamiento: tribo (tribo.contactos@gmail.com)." data-en="Data controller: tribo (tribo.contactos@gmail.com).">Responsable del tratamiento: tribo (tribo.contactos@gmail.com).</li>
+          <li data-es="Tienes derecho a presentar una reclamación ante la Agencia Española de Protección de Datos (AEPD) en aepd.es si consideras que el tratamiento de tus datos no es correcto." data-en="You have the right to lodge a complaint with the Spanish Data Protection Agency (AEPD) at aepd.es if you believe the processing of your data is not correct.">Tienes derecho a presentar una reclamación ante la <a href="https://www.aepd.es" target="_blank" rel="noopener">Agencia Española de Protección de Datos (AEPD)</a>.</li>
         </ul>
       </section>
 
@@ -238,10 +259,10 @@
           <span class="legal-section__num">10</span>
           <span data-es="Contacto" data-en="Contact">Contacto</span>
         </h2>
-        <p data-es="Si tienes preguntas sobre esta Política de Privacidad o quieres ejercer tus derechos, puedes contactarnos en:" data-en="If you have questions about this Privacy Policy or wis[...]
+        <p data-es="Si tienes preguntas sobre esta Política de Privacidad o quieres ejercer tus derechos, puedes contactarnos en:" data-en="If you have questions about this Privacy Policy or wish to exercise your rights, you can contact us at:">Si tienes preguntas sobre esta Política de Privacidad o quieres ejercer tus derechos, puedes contactarnos en:</p>
         <p><strong>tribo</strong><br>
         <a href="mailto:tribo.contactos@gmail.com">tribo.contactos@gmail.com</a></p>
-        <p data-es="Responderemos a cualquier solicitud en un plazo máximo de 30 días." data-en="We will respond to any request within a maximum of 30 days.">Responderemos a cualquier solicitud[...]
+        <p data-es="Responderemos a cualquier solicitud en un plazo máximo de 30 días." data-en="We will respond to any request within a maximum of 30 days.">Responderemos a cualquier solicitud en un plazo máximo de 30 días.</p>
       </section>
 
     </main>
