@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
     entries.forEach((entry, i) => {
       if (entry.isIntersecting) {
         // Stagger delay para elementos en grid
-        const siblings = entry.target.closest('.problems__grid, .section__header');
+        const siblings = entry.target.closest('.problems__grid, .section__header, .requirements__grid');
         let delay = 0;
 
         if (siblings) {
@@ -151,6 +151,42 @@ document.addEventListener('DOMContentLoaded', () => {
       headline.style.opacity = '1';
       headline.style.transform = 'none';
     }, 100);
+  }
+
+
+  // ==========================================
+  // 7. FEEDBACK FORM — manejo de envío
+  // ==========================================
+  const feedbackForm = document.getElementById('feedbackForm');
+  const thankYouMessage = document.getElementById('thankYouMessage');
+
+  if (feedbackForm) {
+    feedbackForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+
+      // Obtener datos del formulario
+      const name = document.getElementById('feedbackName').value;
+      const email = document.getElementById('feedbackEmail').value;
+      const message = document.getElementById('feedbackMessage').value;
+
+      // Aquí iría la lógica para enviar los datos a un backend
+      // Por ahora, simulamos el envío
+      console.log('Feedback enviado:', { name, email, message });
+
+      // Ocultar formulario y mostrar mensaje de agradecimiento
+      feedbackForm.style.display = 'none';
+      if (thankYouMessage) {
+        thankYouMessage.style.display = 'block';
+      }
+
+      // Scroll hacia el mensaje de agradecimiento
+      const container = document.querySelector('.feedback-form-container');
+      if (container) {
+        setTimeout(() => {
+          container.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }, 100);
+      }
+    });
   }
 
 });
