@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback — Tribo</title>
+  <meta name="description" content="Cuéntanos tu sugerencia para mejorar Tribo.">
+  <meta property="og:title" content="Feedback — Tribo">
+  <meta property="og:description" content="Cuéntanos tu sugerencia para mejorar Tribo.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" type="image/png" href="Logo Tribo App.png">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">tribo</a>
+      <a href="index.html#waitlist" class="btn btn--nav">Quiero acceso anticipado</a>
+    </div>
+  </nav>
+
+  <!-- HERO FEEDBACK -->
+  <section class="hero hero--feedback" id="hero">
+    <div class="hero__content reveal">
+      <h1 class="hero__headline">Tu feedback<br>importa.</h1>
+      <p class="hero__sub">Nos encanta escuchar tus ideas. Cuéntanos qué podríamos mejorar en Tribo.</p>
+    </div>
+  </section>
+
+  <!-- FORMULARIO FEEDBACK -->
+  <section class="section section--feedback-form" id="feedback-section">
+    <div class="section__inner section__inner--form reveal">
+      
+      <!-- CONTENEDOR FORM -->
+      <div class="feedback-form-container" id="feedbackFormContainer">
+        <form class="feedback-form feedback-form--active" id="feedbackForm" novalidate>
+          
+          <div class="form-group">
+            <label class="form-label" for="providerName">Nombre del proveedor o marca</label>
+            <input 
+              class="form-input" 
+              id="providerName" 
+              type="text" 
+              name="providerName" 
+              placeholder="ej: Airbnb, Ryanair, etc."
+              required
+            >
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="email">Tu correo</label>
+            <input 
+              class="form-input" 
+              id="email" 
+              type="email" 
+              name="email" 
+              placeholder="tu@email.com"
+              required
+            >
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="proposal">Tu propuesta o sugerencia</label>
+            <textarea 
+              class="form-input form-input--textarea" 
+              id="proposal" 
+              name="proposal" 
+              placeholder="Cuéntanos qué podríamos mejorar o qué alianza nos gustaría que tuviera Tribo..."
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--primary" id="submitBtn">Enviar feedback</button>
+        </form>
+      </div>
+
+      <!-- MENSAJE DE AGRADECIMIENTO (oculto al inicio) -->
+      <div class="thank-you-message" id="thankYouMessage" style="display: none;">
+        <div class="thank-you-message__content">
+          <div class="thank-you-message__icon">✓</div>
+          <h2 class="thank-you-message__title">¡Gracias!</h2>
+          <p class="thank-you-message__text">
+            Tu feedback nos ayuda a mejorar. Nos pondremos en contacto contigo pronto.
+          </p>
+          <p class="thank-you-message__text--secondary">
+            Hemos enviado una copia a <strong id="confirmEmail"></strong>
+          </p>
+          <a href="index.html" class="btn btn--dark" style="margin-top: 16px; max-width: 200px;">Volver al inicio</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <span class="footer__logo">tribo</span>
+       <nav class="footer__links">
+        <a href="privacidad.html" class="footer__link">Política de Privacidad</a>
+        <span class="footer__separator">•</span>
+        <a href="terminos.html" class="footer__link">Términos de Servicio</a>
+        <span class="footer__separator">•</span>
+        <a href="trabaja-con-nosotros.html" class="footer__link">Trabaja con nosotros</a>
+        <span class="footer__separator">•</span>
+        <a href="feedback.html" class="footer__link">Feedback</a>
+       </nav>
+      <p class="footer__copy">© 2026 Tribo. Hecho con ganas de viajar.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+  <script src="feedback.js"></script>
+</body>
+</html>
