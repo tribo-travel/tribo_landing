@@ -33,7 +33,7 @@ feedbackForm.addEventListener('submit', async (e) => {
       providerName,
       email,
       proposal,
-      receiverEmail: 'contacto@tribo.com' // CAMBIAR POR TU EMAIL
+      receiverEmail: 'tribo.contactos@gmail.com' 
     });
 
     // Mostrar mensaje de éxito
@@ -75,7 +75,7 @@ async function sendFeedbackEmail(data) {
   formData.append('email', data.email);
   formData.append('proposal', data.proposal);
 
-  const response = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+  const response = await fetch('https://formspree.io/f/mpqnkwqv', {
     method: 'POST',
     body: formData,
     headers: {
